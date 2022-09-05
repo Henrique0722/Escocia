@@ -10,7 +10,86 @@
 
 }
 
-*{
-    padding: 0;
-    margin: 0;
+table{
+    width: 700px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+}
+nav{
+    margin-top: 100px;
+}
+.bindex{
+    background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+}
+.hindex > p{
+    font-size: 1.4em;
+}
+.hindex a{
+    font-size: 1.5em;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 8px;
+}
+.hindex a:hover{
+    background-color: rgba(255, 255, 255, 0.527);
+    transition: 0.4s;
+}
+.hindex{
+    background-image: url(escocia.jpg);
+    height: 440px;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color:white;
+    
+
+}
+.hindex > h1{
+    font-size: 80px ;
+    margin-top: 10px;
+    
+}
+.mindex{
+    padding: 18px;
+    background-color:var(--cor4);
+    border-radius: 10px;
+    max-width: 1200px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    margin: auto;
+    
+    
+}
+.mindex h2{
+    margin-top: 1px;
+    padding: 20px;
+}
+
+
+
+
+
+
+.hpassaport{
+    background-image: url(pexels-bridgid-johnston-7103949.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.bpassaport{
+   background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+    
+}
+.mpassaport{
+    background-color: var(--cor3);
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    border-radius: 10px;
 }
