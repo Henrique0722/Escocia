@@ -113,7 +113,13 @@ nav{
     background-color: #A87E68;
     transition: 0.4s;
 }
+picture > img{
+    max-width: 700px;
+    min-width: 280px;
+    display: block;
+    margin: auto;
 
+}
 .hpassaport > p{
     font-size: 1.9em;
     color: white;
