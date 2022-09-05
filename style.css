@@ -13,10 +13,13 @@
 table{
     width: 700px;
     border-collapse: collapse;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.493);
 }
 td{
-    border: 1px solid black;
+    border: 1px solid rgb(172, 172, 172);
     padding: 8px;
+    background-color: white;
 }
 nav{
     margin-top: 100px;
@@ -61,12 +64,17 @@ nav{
     max-width: 1200px;
     text-align: center;
     line-height: 30px;
-    font-size: 20px;
+    font-size: 1.7em;
     margin: auto;
     
     
 }
 .mindex h2{
+    background-color: var(--cor2);
+    width: 250px;
+    color: white;
+    border-radius: 8px;
+    margin: auto;
     margin-top: 1px;
     padding: 20px;
 }
@@ -81,6 +89,40 @@ nav{
     height: 400px;
     background-size: cover;
     background-position: center center;
+
+    text-align: center;
+
+}
+.hpassaport > h1{
+    margin-top:0;
+    font-size: 80px;
+    color: var(--cor1);
+}
+.hpassaport > nav > a {
+    text-decoration: none;
+    width: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 1.4em;
+    margin-top: 30px;
+    text-align: left;
+}
+.hpassaport > nav > a:hover{
+    background-color: #A87E68;
+    transition: 0.4s;
+}
+
+.hpassaport > p{
+    font-size: 1.9em;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.438);
+    padding: 10px;
+    width: 250px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 80px;
 }
 .bpassaport{
    background-image: linear-gradient(to top, var(--cor2), var(--cor4));
@@ -92,4 +134,110 @@ nav{
     max-width: 1200px;
     margin: auto;
     border-radius: 10px;
+}
+.mpassaport{
+    text-align: center;
+    line-height: 40px;
+    font-size: 1.7em;
+}
+
+
+
+
+.bfinanceiro{
+    background-image: linear-gradient(to top, var(--cor2), var(--cor5))
+}
+.hfinanceiro{
+    background-image: url(pexels-s-migaj-1184000\ \(1\).png);
+    background-size: cover;
+    background-position: center ;
+    height: 350px;
+    padding-top: 0;
+    font-size: 30px;
+    color: var(--cor1);
+
+}
+.hfinanceiro > h1{
+    text-align: center;
+}
+
+.mfinanceiro{
+    max-width: 1200px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 1.7em;
+    background-color: #CF9A80;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hfinanceiro > nav a{
+    text-decoration: none;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.664);
+    background-color: rgba(0, 0, 0, 0.384);
+    border-radius: 8px;
+    padding: 6px;
+    font-size: 1.1em;
+    
+}
+.hfinanceiro > nav> a:hover{
+    transition: 0.4s;
+    background-color: #C39279;
+}
+.hfinanceiro > nav{
+   text-align: center;
+   margin-top: 220px;
+}
+
+
+
+
+
+.bconceitos{
+    background-image: linear-gradient( var(--cor2), var(--cor3));
+}
+   
+.hconceitos{
+    height: 400px;
+    background-image: url(escocia4s.jpg);
+    background-size: cover;
+    background-position: center ;
+    text-align: center;
+}
+.hconceitos > h1{
+    font-size: 70px;
+    color: var(--cor1);
+
+}
+.hconceitos > nav{
+    margin-top: 280px;
+}
+.hconceitos > nav > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.459);
+    padding: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.466);
+    border-radius: 8px;
+}
+.hconceitos > nav > a:hover{
+    transition: 0.4s;
+    background-color: var(--cor3);
+}
+
+.mconceitos{
+    text-align: center;
+    background-color: var(--cor4);
+    padding: 20px;
+    line-height: 40px;
+    font-size: 1.7em;
+    border-radius: 10px;
+}
+.mconceitos h2{
+    background-color: var(--cor2);
+    color: white;
+    width: 250px;
+    padding: 10px;
+    border-radius: 8px;
+    margin: auto;
 }
