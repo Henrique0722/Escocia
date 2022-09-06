@@ -246,7 +246,7 @@ picture > img{
 }
 picture > img{
     max-width: 600px;
-    min-width: 280px;
+    min-width: 250px;
     display: block;
     margin: auto;
     border-radius: 8px;
