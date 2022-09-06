@@ -31,7 +31,7 @@ nav{
     font-size: 1.4em;
 }
 .hindex a{
-    margin: 4px;
+    margin: 1px;
     font-size: 1.1em;
     text-decoration: none;
     color: white;
@@ -100,7 +100,7 @@ nav{
 .hpassaport > h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top:0;
-    font-size: 80px;
+    font-size: 70px;
     color: var(--cor1);
 }
 .hpassaport > nav > a {
