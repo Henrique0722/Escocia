@@ -53,11 +53,13 @@ nav{
 
 }
 .hindex > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 80px ;
     margin-top: 10px;
     
 }
 .mindex{
+    font-family: Arial, Helvetica, sans-serif;
     padding: 18px;
     background-color:var(--cor4);
     border-radius: 10px;
@@ -70,6 +72,7 @@ nav{
     
 }
 .mindex h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: var(--cor2);
     width: 250px;
     color: white;
@@ -94,6 +97,7 @@ nav{
 
 }
 .hpassaport > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-top:0;
     font-size: 80px;
     color: var(--cor1);
@@ -107,7 +111,6 @@ nav{
     padding: 8px;
     font-size: 1.4em;
     margin-top: 30px;
-    text-align: left;
 }
 .hpassaport > nav > a:hover{
     background-color: #A87E68;
@@ -135,6 +138,7 @@ picture > img{
     
 }
 .mpassaport{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--cor3);
     padding: 20px;
     max-width: 1200px;
@@ -154,6 +158,7 @@ picture > img{
     background-image: linear-gradient(to top, var(--cor2), var(--cor5))
 }
 .hfinanceiro{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-image: url(pexels-s-migaj-1184000\ \(1\).png);
     background-size: cover;
     background-position: center ;
@@ -167,7 +172,10 @@ picture > img{
     text-align: center;
 }
 
+
+
 .mfinanceiro{
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 1200px;
     margin: auto;
     line-height: 40px;
@@ -175,6 +183,9 @@ picture > img{
     background-color: #CF9A80;
     padding: 10px;
     border-radius: 10px;
+}
+#container{
+    overflow-x: auto;
 }
 
 .hfinanceiro > nav a{
@@ -192,8 +203,8 @@ picture > img{
     background-color: #C39279;
 }
 .hfinanceiro > nav{
-   text-align: center;
-   margin-top: 220px;
+   text-align: right;
+   margin-top: 150px;
 }
 
 
@@ -212,12 +223,14 @@ picture > img{
     text-align: center;
 }
 .hconceitos > h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 70px;
     color: var(--cor1);
 
 }
 .hconceitos > nav{
-    margin-top: 280px;
+    margin-top: 210px;
+    text-align: right;
 }
 .hconceitos > nav > a{
     text-decoration: none;
@@ -230,8 +243,17 @@ picture > img{
     transition: 0.4s;
     background-color: var(--cor3);
 }
+picture > img{
+    max-width: 600px;
+    min-width: 280px;
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+}
 
 .mconceitos{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: var(--cor4);
     padding: 20px;
@@ -240,6 +262,7 @@ picture > img{
     border-radius: 10px;
 }
 .mconceitos h2{
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
     background-color: var(--cor2);
     color: white;
     width: 250px;
