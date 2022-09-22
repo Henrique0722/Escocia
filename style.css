@@ -26,6 +26,7 @@ nav{
 }
 .bindex{
     background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+    margin: 0px;
 }
 .hindex > p{
     font-size: 1.4em;
@@ -136,6 +137,7 @@ picture > img{
 }
 .bpassaport{
    background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+   margin: 0px;
     
 }
 .mpassaport{
@@ -214,6 +216,7 @@ picture > img{
 
 .bconceitos{
     background-image: linear-gradient( var(--cor2), var(--cor3));
+    margin: 0px;
 }
    
 .hconceitos{
@@ -226,18 +229,19 @@ picture > img{
 .hconceitos > h1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 70px;
+    margin: 10px;
     color: var(--cor1);
 
 }
 .hconceitos > nav{
     margin-top: 210px;
-    text-align: right;
+    text-align: center;
 }
 .hconceitos > nav > a{
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.459);
-    padding: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.466);
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid white;
     border-radius: 8px;
 }
 .hconceitos > nav > a:hover{
